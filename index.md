@@ -33,4 +33,47 @@ Credit_Histort | Repayment of previous loan
 Property_Area | Urban/Semi/Rural
 Loan_Status | Y/N
  
- 
+**Data Cleaning:**
+
+Firstly, Import the required libraries
+```python
+#import libraries
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+```
+Read the CSV files
+
+```python
+#read the csv files
+
+loan_train=pd.read_csv(r'C:\Users\Veena\Downloads\train1.csv')
+loan_test=pd.read_csv(r'C:\Users\Veena\Downloads\test1.csv')
+```
+
+Observe the dataset information
+
+```python
+loan_train.head()
+```
+```python
+loan_train.info()
+```
+```python
+loan_train.describe()
+```
+
+**Check for missing values**
+
+We can use heat map to observe the missing values
+It can be calculated by
+
+```python
+total_null = loan_train.isnull().sum().sort_values(ascending=False)
+miss_data = pd.concat([total_null], axis=1, keys=['Total'])
+miss_data.head(13)
+```
+
