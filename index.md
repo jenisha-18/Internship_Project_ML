@@ -124,7 +124,7 @@ No missing datas found.
 
 **Let's use count plot to analyse the dataset**
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp1.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp1.png)
 
 Here, We can observe that those who aren't self employed apply for loans mostly.
 
