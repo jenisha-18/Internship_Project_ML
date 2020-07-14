@@ -63,20 +63,20 @@ loan_test=pd.read_csv(r'C:\Users\Veena\Downloads\test1.csv')
 
 Observe the dataset information
 
-![head](https://github.com/jenisha-18/Internship_Project_ML/blob/images/info1.png)
+![head](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/info1.png)
 
 
-![info](https://github.com/jenisha-18/Internship_Project_ML/blob/images/info2.png)
+![info](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/info2.png)
 
 
-![col](https://github.com/jenisha-18/Internship_Project_ML/blob/images/info3.png)
+![col](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/info3.png)
 
 
 ### Check for missing values before applying any algorithm
 
 We can use *heat map* to observe the missing values
 
-![heatmap](https://github.com/jenisha-18/Internship_Project_ML/blob/images/heatmap1.png)
+![heatmap](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/heatmap1.png)
 
 We can see that there are few datas missing from the dataset. We need to fill them before using any algorithm for analysis.
 
@@ -89,7 +89,7 @@ miss_data = pd.concat([total_null], axis=1, keys=['Total'])
 miss_data.head(13)
 ```
 
-![missing value](https://github.com/jenisha-18/Internship_Project_ML/blob/images/mvalue1.png)
+![missing value](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/mvalue1.png)
 
 
 **Fill up the missing datas**
@@ -115,7 +115,7 @@ miss_data = pd.concat([total_null], axis=1, keys=['Total'])
 miss_data.head(13)
 ```
 
-![missing value](https://github.com/jenisha-18/Internship_Project_ML/blob/images/mvalue2.png)
+![missing value](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/mvalue2.png)
 
 No missing datas found.
 
@@ -129,27 +129,27 @@ No missing datas found.
 Here, We can observe that those who aren't self employed apply for loans mostly.
 
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp2.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp2.png)
 
 Males are most likely to get approved for loan than Females
 
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp3.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp3.png)
 
 Loan applicants who are married are most likely of getting approval for loan.
 
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp4.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp4.png)
 
 Here, We can observe that applicants who live in Semiurban areas obtain more loans followed by Urban and Rural.
 
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp5.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp5.png)
 
 Those who have history of returning the loans are most likely of getting approval for loan.
 
 
-![cp](https://github.com/jenisha-18/Internship_Project_ML/blob/images/cp6.png)
+![cp](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/cp6.png)
 
 Loan Applications are mostly 360 cyclic loan term.
 
@@ -157,64 +157,64 @@ Loan Applications are mostly 360 cyclic loan term.
 **Analysing the data using FacetGrid**
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg1.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg1.png)
 
 Male Graduate has the highest income when compared to others.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg2.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg2.png)
 
 Here, We can see that Males have higher income than that of Females. Males who are married have higher income than that of unmarried ones.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg3.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg3.png)
 
 Males with no dependents tend to have high income and income reduces as the dependents increases.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg4.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg4.png)
 
 Individual who is unmarried with no dependents have higher income. And also, those who are married and with no dependents have greater income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg5.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg5.png)
 
 Applicant who is married and graduate has greater income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg6.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg6.png)
 
 Those who have good credit history have high income regardless of marital status.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg7.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg7.png)
 
 Here we can see that individual who is not self employed but graduated has higher income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg8.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg8.png)
 
 Not a self employed with no dependents has greater income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg9.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg9.png)
 
 A graduate with no dependent has high income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg10.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg10.png)
 
 A graduate with good Credit history has higher income.
 
 
-![fg](https://github.com/jenisha-18/Internship_Project_ML/blob/images/fg11.png)
+![fg](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/fg11.png)
 
 Individual with no dependents tend to have more income.
 
 
 ### Observe the dataset for data cleaning
 
-![obj](https://github.com/jenisha-18/Internship_Project_ML/blob/images/obj1.png)
+![obj](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/obj1.png)
 
 We can see that datatypes of few columns are object. It is better to change them to numeric datatypes
 
@@ -230,7 +230,7 @@ loan_test = loan_test.applymap(lambda s: conv_dtype.get(s) if s in conv_dtype el
 ```
 
 Check the information of dataset again
-![obj](https://github.com/jenisha-18/Internship_Project_ML/blob/images/obj2.png)
+![obj](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/obj2.png)
 
 Here, we can observe that all the fields except for Loan_ID and Dependents has been converted from object Dtype.
 We can drop Loan_ID from the dataframe.
@@ -256,7 +256,7 @@ loan_test = pd.concat([loan_test, Dependents_Test], axis = 1)
 
 Checking the datatype of columns of the dataset
 
-![obj](https://github.com/jenisha-18/Internship_Project_ML/blob/images/obj3.png)
+![obj](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/obj3.png)
 
 Finally,
 all the datatypes are in numeric datatype and unnecessary columns are removed
@@ -320,7 +320,7 @@ print(classification_report(y_test,ypred))
 
 
 
-![lr](https://github.com/jenisha-18/Internship_Project_ML/blob/images/lr.png)
+![lr](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/lr.png)
 
 Here,we got **0.83** accuracy_score in Logistic Regression.
 
@@ -359,7 +359,7 @@ print(classification_report(y_test,ypred_dtree))
 
 
 
-![dt](https://github.com/jenisha-18/Internship_Project_ML/blob/images/dt.png)
+![dt](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/dt.png)
 
 Here,we got **0.75** accuracy_score in Decision Tree.
 
@@ -398,7 +398,7 @@ print(classification_report(y_test,rfc_pred))
 
 
 
-![rf](https://github.com/jenisha-18/Internship_Project_ML/blob/images/rf.png)
+![rf](https://raw.githubusercontent.com/jenisha-18/Internship_Project_ML/images/rf.png)
 
 Here,we got **0.81** accuracy_score in Random Forest.
 
