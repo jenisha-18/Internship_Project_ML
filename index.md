@@ -2,7 +2,7 @@
 
 In finance, *loan* is lending the money to an individual or an organisation etc by any individual or group or organisation.
 The borrower requests for the loan and after he/she is approved  and granted the loan amount,the client has to repay the sum along with the interest laid on the amount borrowed in regular basis after a certain amount of time.
-It is a hercules job to estimate if the borrower will repay the loan or not .Hence it need to be automated.
+It is a hercules job to estimate if the borrower will repay the loan or not .Hence it needs to be automated.
 
 Here, we analyse and predict the loan approval using some simple machine learning algorithms.
  
